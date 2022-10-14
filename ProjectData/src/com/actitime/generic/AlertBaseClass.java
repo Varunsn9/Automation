@@ -26,6 +26,6 @@ public void openBrowser() throws IOException {
 }
 	@AfterTest
 	public void closeBrowser() {
-		driver.close();
+		driver.quit();
 	}
 }
